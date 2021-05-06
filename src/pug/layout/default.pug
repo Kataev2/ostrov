@@ -1,0 +1,23 @@
+include ../data/config.pug
+include ../components/**/*.pug
+
+block variables
+
+doctype html
+html(lang="ru")
+  head
+    include ../parts/head.pug
+
+  body(class=bodyClass)
+    block header
+      include ../parts/header.pug
+
+    block content
+
+    block footer
+      include ../parts/footer.pug
+
+    block scripts
+      script(src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous")
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js")
+      script(src="js/main.min.js?v=" + siteVersion)

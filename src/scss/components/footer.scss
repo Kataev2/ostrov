@@ -1,0 +1,76 @@
+.footer {
+    background: #F74520;
+    color: #fff; 
+    
+    &__btn {
+        padding: 9px 18px;
+        font-size: 17px;    
+    }
+   
+
+    &__item {   
+        padding: 40px 0;
+        &:last-child {
+            padding: 20px 0;
+            border-top: 1px solid #9E2813;
+            .container{
+                align-items: center;
+            }
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        &-logo {
+            margin: 0 86px 0 0;
+        }
+
+        &-section {
+            margin: 0 121px 0 0;
+        }
+
+        &-contact {
+            display: flex;
+            flex-direction: column;
+            &__phone {
+                margin: 0 0 15px 0;
+                font-size: 22px;
+            }
+        }
+        .footer-section {
+            &__title {
+                font-weight: 700;
+                margin: 0 0 24px 0;
+                font-size: 16px;
+            }
+
+            &__container {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &__item {
+                margin: 0 60px 0 0;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                &:last-child {
+                    margin: 0;
+                }
+                
+                &-content {
+                    line-height: 1.5;
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+
+        &-copy {
+            color: rgba(35, 0, 0, 0.42);
+            text-align: center;
+        }
+    }
+}

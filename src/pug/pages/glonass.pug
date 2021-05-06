@@ -1,0 +1,88 @@
+.tachograph-baner 
+    .container 
+        .tachograph-baner__inner 
+            .tachograph-baner__inner-title Мониторинг 
+                br
+                |транспорта
+            .tachograph-baner__inner-text Контроль местоположения и маршрутов передвижения транспортных средств.
+            .tachograph-baner__inner-overlay 
+            img(src="images/common/image_19.webp", alt="").tachograph-baner__inner-img
+
+.monitoring
+    .container
+        .monitoring__title.directions__title Мониторинг помогает
+        .monitoring__subtitle.tacho__subtitle быстро и эффективно управлять автопарком
+        .monitoring__inner 
+            .monitoring__inner-item.item 
+                img(src="images/icon/road.webp", alt="").monitoring__item-img
+                .monitoring__item-text Отслеживать маршруты передвижения и скоростные режимы, контролировать доставку грузов
+            
+            .monitoring__inner-item.item 
+                img(src="images/icon/hand.webp", alt="").monitoring__item-img
+                .monitoring__item-text Исключить левые рейсые, отклонения от маршрута и графика движения, приписки пробегов
+
+            .monitoring__inner-item.item 
+                img(src="images/icon/road2.webp", alt="").monitoring__item-img
+                .monitoring__item-text Повысить эффективность работы логистических служб
+            
+            .monitoring__inner-item.item 
+                img(src="images/icon/wheel.webp", alt="").monitoring__item-img
+                .monitoring__item-text Пресечь непроизводственные простои, стоянки в неразрешенных местах и геозонах
+
+            .monitoring__inner-item.item 
+                img(src="images/icon/secur.webp", alt="").monitoring__item-img
+                .monitoring__item-text Снизить аварийность транспорта и повысить безопасность персонала
+
+            
+            .monitoring__inner-item.item 
+                img(src="images/icon/lock.webp", alt="").monitoring__item-img
+                .monitoring__item-text Минимизировать риски угона транспортного средства и хищения груза
+
+.equipment 
+    .container 
+        .equipment__title.directions__title Выберите оборудование
+        .equipment__inner 
+            a(href="").equipment__inner-item.item
+                img(src="images/equipment/image 21.webp", alt="").item__img 
+                .item__title Мобильные терминалы
+            a(href="").equipment__inner-item.item
+                img(src="images/equipment/image 22.webp", alt="").item__img 
+                .item__title Датчики уровня топлива
+            a(href="").equipment__inner-item.item
+                img(src="images/equipment/image 23.webp", alt="").item__img 
+                .item__title Дополнительное оборудование
+
+.decision
+    .container
+        .decision__title.directions__title Хочу готовое решение
+        .decision__subtitle Базовый мониторинг транспорта
+        .decision__text для всех видов транспорта
+        .decision__inner 
+            .decision__inner-box.box
+                .box__item
+                    .box__title от 10 до 40%
+                    .box__subtitle уменьшение пробега
+                .box__item
+                    .box__title от 10 до 40%
+                    .box__subtitle уменьшение топливных расходов
+                .box__item
+                    .box__title до 40%
+                    .box__subtitle уменьшение расходов на содержвание автопарка
+            img(src="images/common/image 25.webp", alt="").decision__inner-img
+        btn(type="submit").calc-btn.btn Подробнее
+
+.order
+    .container
+        .order-inner.calc-inner
+            .order-title.calc-title Узнать как избежать штрафа
+            form(action="" method="POST").order-form.calac-form
+                input(type="text" placeholder="ФИО").order-form__item
+                input(type="text" placeholder="Ваш телефон").order-form__item
+                input(type="text" placeholder="Электронная почта").order-form__item
+                .order-form__container
+                    .calc-subtitle 
+                        span *Hажимая на кнопку отправить,
+                        br
+                        | я соглашаюсь с 
+                        a(href="") политкой конфиденциальности
+                    btn(type="submit").calc-btn.btn Отправить
